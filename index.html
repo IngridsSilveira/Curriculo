@@ -16,8 +16,21 @@
 </head>
 
 <body>
+    <header class="container-fluid header d-flex align-items-center justify-content-between mt-3">
+        <div class="d-flex">
+            <p class="me-3">Feito por <a target="_blank" href="https://github.com/IngridsSilveira">Dev_Ingrid</a>
+            </p>
+            <a class="icons me-2" target="_blank" href="https://github.com/IngridsSilveira"><i
+                    class="bi bi-github"></i></a>
+            <a class="icons me-2" target="_blank" href="https://www.instagram.com/dev_ingrid/"><i
+                    class="bi bi-instagram"></i></a>
+            <a class="icons" target="_blank" href="https://www.linkedin.com/in/ingridssilveira/"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+        <i class="bi bi-printer-fill"></i>
+    </header>
     <section class="body_cv container-fluid p-3 d-flex align-items-center justify-content-center">
-        <div class="body_header d-flex align-items-center justify-content-evenly">
+        <div class="body_header d-flex align-items-center justify-content-around">
             <div class="title">
                 <h1>Ingrid de Souza</h1>
                 <h2>Desenvolvedora Web</h2>
@@ -34,14 +47,14 @@
                 </div>
             </div>
         </div>
-        <div class="profile">
+        <div class="div-padrao profile">
             <h3>Profile Summary</h3>
             <p>Sou desenvolvedora apaixonada pelo que faço, estou com 1 ano de experiência e já realizei projetos
                 focados no front- end, utilizando HTML, CSS, Sass, Javascript, Bootstrap e atualmente estou estudando
                 React.</p>
         </div>
         <div class="linha"></div>
-        <div class="body_skills d-flex justify-content-between">
+        <div class="div-padrao body_skills d-flex justify-content-between">
             <h3>Skills</h3>
             <ul>
                 <div>
@@ -63,22 +76,51 @@
             </ul>
         </div>
         <div class="linha"></div>
-        <div class="experience d-flex">
+        <div class="div-padrao experience d-flex">
             <h3>Work Experience</h3>
             <div class="ms-3 mt-1 mb-3">
                 <h4>Star Wars Plantes</h4>
-                <li class="ms-5">Consumindo API do Star Wars e capturando dados sobre os planetas.</li>
-                <li class="ms-5">Linguagens utilizadas: HTML, Sass, Bootstrap e Javascript</li>
-                <li class="ms-5"><a href="https://github.com/IngridsSilveira/starWars-Planets" target="_blank">@Repositório</a></li>
+                <ul>
+                    <li>Consumindo API do Star Wars e capturando dados sobre os planetas.</li>
+                    <li>Linguagens utilizadas: HTML, Sass, Bootstrap e Javascript</li>
+                    <li><a href="https://github.com/IngridsSilveira/starWars-Planets" target="_blank">@Repositório</a>
+                    </li>
+                </ul>
             </div>
             <div class="ms-3 mt-1">
                 <h4>Portfólio</h4>
-                <li class="ms-5">Desenvolvimento de um site pessoal, para demonstrar os meus conhecimentos e habilidades.</li>
-                <li class="ms-5">Linguagens utilizadas: HTML, CSS, Boostrap e Javascript.</li>
-                <li class="ms-5"><a href="https://ingriddev.netlify.app/">@Demo</a></li>
+                <ul>
+                    <li>Desenvolvimento de um site pessoal, para demonstrar os meus conhecimentos e
+                        habilidades.</li>
+                    <li>Linguagens utilizadas: HTML, CSS, Boostrap e Javascript.</li>
+                    <li><a href="https://ingriddev.netlify.app/">@Demo</a></li>
+                </ul>
             </div>
         </div>
+        <div class="linha mt-3 mb-3"></div>
+        <div class="div-padrao education">
+            <h3>Education</h3>
+            <div class="education_align d-flex align-items-start">
+                <ul>
+                    <li>Tecnólogo em Análise e Desenv. de Sistemas <p>Unisuam - 2019/2021</p>
+                    </li>
+                    <li>Bootcamp HTML Web Developer <p>DIO - 2021</p>
+                    </li>
+                    <li>Formação Front-End <p>Alura - 2021</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="linha mt-3 mb-3"></div>
+        <div class="div-padrao languages">
+            <h3>Languages</h3>
+            <ul class="ms-3">
+                <li>Português - Nativo</li>
+                <li>Inglês - Intermediário</li>
+            </ul>
+        </div>
     </section>
+
 </body>
 
 </html>
