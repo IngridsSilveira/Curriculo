@@ -21,7 +21,7 @@ body {
   margin-bottom: -3px;
   font-size: 1.2rem;
   color: #000;
-  width: 60%;
+  width: 70%;
   a,
   i {
       &:hover {
@@ -35,7 +35,7 @@ body {
 }
 .body_cv {
   @include flex-direction;
-  width: 60%;
+  width: 70%;
   margin-top: 10px;
   height: auto;
   border-radius: 5px;
@@ -53,6 +53,7 @@ body {
 .body_header {
   width: 100%;
   .title {
+    margin-right: 10px;
     color: #000;
     text-transform: uppercase;
     h1 {
@@ -112,3 +113,41 @@ body {
     margin-bottom: -1px;
  }   
 }
+
+@media screen and (max-width: 767px){
+  .header,
+  .body_cv {
+    width: 100%;
+    border-radius: 0;
+  }
+  .body_header {
+    @include flex-direction();
+    .title {
+      h1, h2 {
+        font-size: 1.6rem;
+      }
+    }
+    .contact {
+        a, i, p {
+          font-size: 1.3rem;
+        }
+        margin-bottom: 20px;
+    }
+  }
+  .body_skills {
+    ul {
+    @include flex-direction;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header,
+  .body_cv {
+    width: 90%;
+  }
+}
+// @media screen and (min-width: 1024px) {
+//   .body_cv {
+//     background-color: blue;
+//   }
+// }
