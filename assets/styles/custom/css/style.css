@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   margin-bottom: -3px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #000;
   width: 70%; }
   .header a,
@@ -96,8 +96,7 @@ body {
 @media screen and (max-width: 767px) {
   .header,
   .body_cv {
-    width: 100%;
-    border-radius: 0; }
+    width: 90%; }
 
   .body_header {
     flex-direction: column; }

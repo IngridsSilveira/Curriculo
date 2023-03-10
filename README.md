@@ -10,7 +10,7 @@ Site feito com HTML, Sass, Bootstrap e JS.
 
 ## Screenshot
 
-![]()
+![](desktop.png)
 
 ## Links
 
